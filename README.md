@@ -3,15 +3,15 @@
 ## Build
 
 ```
-$ docker build --pull --rm --tag partiql-cli:0.1.0-alpha .
+$ docker build --pull --rm -t partiql-cli .
 ```
 
 ## Run
 
 ```
-$ docker -it --rm partiql-cli
+$ docker run -it --rm partiql-cli
 ```
 
 ## Author
 
-@shoma07
+shoma07
